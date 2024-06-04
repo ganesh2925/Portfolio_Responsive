@@ -48,6 +48,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 h1, h2, p {
@@ -215,6 +217,7 @@ img {
 }
 .home__blob {
   fill: var(--first-color);
+  fill: rgb(108, 113, 214);
 }
 .home__blob-img {
   width: 360px;
@@ -304,12 +307,43 @@ img {
 }
 .skills__git{
     width: 35%;
+  width: 30%;
+}
+.skills__git{
+    width: 80%;
+}
+.skills__react {
+  width: 20%;
+}
+.skills__bootstrap{
+    width: 55%;
+}
+.skills__sass {
+  width: 50%;
+}
+.skills__comm {
+  width: 55%;
+}
+.skills__creativity {
+  width: 90%;
+}
+.skills__time {
+  width: 70%;
+}
+.skills__teamwork {
+  width: 100%;
+
 }
 .skills__img {
   border-radius: 0.5rem;
 }
 
 /* ===== WORK =====*/
+
+.work__exp {
+  text-align: center;
+}
+
 .work__container {
   row-gap: 2rem;
 }
@@ -319,10 +353,22 @@ img {
   overflow: hidden;
 }
 .work__img img {
+
   transition: 1s;
 }
 .work__img img:hover {
   transform: scale(1.1);
+  transition: 2s;
+}
+.work__img img:hover {
+  transform: scale(1.3);
+}
+
+.work__img__dis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 /* ===== CONTACT =====*/
