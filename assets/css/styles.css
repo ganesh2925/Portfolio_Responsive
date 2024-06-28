@@ -303,11 +303,10 @@ img {
   width: 65%;
 }
 .skills__angular {
-  width: 25%;
+  width: 10%;
 }
 .skills__git{
-    width: 35%;
-  width: 30%;
+  width: 35%;
 }
 .skills__git{
     width: 80%;
@@ -319,10 +318,13 @@ img {
     width: 55%;
 }
 .skills__sass {
-  width: 50%;
+  width: 30%;
 }
 .skills__comm {
   width: 55%;
+}
+.skills__teamwork {
+  width: 100%;
 }
 .skills__creativity {
   width: 90%;
