@@ -346,15 +346,17 @@ img {
 .skills__git {
   width: 35%;
 }
-.skills__git{
-    width: 80%;
+
+.skills__git {
+  width: 80%;
 }
 
 .skills__react {
   width: 35%;
 }
-.skills__bootstrap{
-    width: 55%;
+
+.skills__bootstrap {
+  width: 55%;
 }
 
 .skills__sass {
@@ -494,6 +496,7 @@ img {
   .contact__button {
     margin-left: 80px;
   }
+
   .personal__info {
     text-align: center;
     font-size: var(--normal-font-size);
