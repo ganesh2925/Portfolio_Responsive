@@ -339,10 +339,6 @@ img {
   width: 65%;
 }
 
-.skills__angular {
-  width: 10%;
-}
-
 .skills__git {
   width: 35%;
 }
@@ -352,15 +348,11 @@ img {
 }
 
 .skills__react {
-  width: 35%;
+  width: 60%;
 }
 
-.skills__bootstrap {
+.skills__tailwindcss {
   width: 55%;
-}
-
-.skills__sass {
-  width: 30%;
 }
 
 .skills__comm {
