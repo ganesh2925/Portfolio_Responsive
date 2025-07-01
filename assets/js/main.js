@@ -32,16 +32,19 @@ const scrollActive = () => {
       sectionTop = current.offsetTop - 58,
       sectionId = current.getAttribute("id"),
       sectionsClass = document.querySelector(
-        ".nav__menu a[href*=" + sectionId + "]"
+        `.nav__menu a[href*="#${sectionId}"]`
       );
 
-    if (scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight) {
-      sectionsClass.classList.add("active-link");
-    } else {
-      sectionsClass.classList.remove("active-link");
+    if (sectionsClass) {
+      if (scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight) {
+        sectionsClass.classList.add("active-link");
+      } else {
+        sectionsClass.classList.remove("active-link");
+      }
     }
   });
 };
+
 window.addEventListener("scroll", scrollActive);
 
 /*===== SCROLL REVEAL ANIMATION =====*/
@@ -58,4 +61,7 @@ sr.reveal(".home__img, .about__subtitle, .about__text, .skills__img", {
   delay: 400,
 });
 sr.reveal(".home__social-icon", { interval: 200 });
-sr.reveal(".skills__data, .work__img, .contact__input, .contact__button, .personal__info", { interval: 200 });
+sr.reveal(
+  ".skills__data, .work__img, .contact__input, .contact__button, .personal__info",
+  { interval: 200 }
+);
