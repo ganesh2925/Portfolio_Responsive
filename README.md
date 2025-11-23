@@ -2,4 +2,4 @@
 ## Portfolio website about my skills and social media references. Also, this project is a responsive website
 
 
-<img width="1920" height="1080" alt="portfolio-img" src="https://github.com/user-attachments/assets/85305611-0296-4d82-b690-a9f1dcbcce30" />
+<img width="1897" height="860" alt="portfolio-img" src="https://github.com/user-attachments/assets/c02a536f-ca88-46a8-8758-2675efe54eee" />
